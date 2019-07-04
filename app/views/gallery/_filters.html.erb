@@ -1,0 +1,10 @@
+<div id='filter-box'>
+  <% @animals.each do |animal| %>
+    <% if animal.name.downcase != @filter %>
+      <h2 class="filter"><%= link_to animal.name.downcase, :filter => animal.name.downcase %></h2>
+    <% end %>
+  <% end %>
+  <% if @filter.present? %>
+    <h2 class="filter"><%= link_to "all", gallery_path(@gallery) %></h2>
+  <% end %>
+</div>
