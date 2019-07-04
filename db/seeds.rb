@@ -21,8 +21,8 @@ animals.each do |animal_name|
 end
 
 bugs = Animal.find_by_name('bugs')
-bugs = Animal.find_by_name('birds')
-bugs = Animal.find_by_name('mammals')
+birds = Animal.find_by_name('birds')
+mammals = Animal.find_by_name('mammals')
 
 bugs.photos.create({
   name: 'Silver long-jawed orbweaver',
