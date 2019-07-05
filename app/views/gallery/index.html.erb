@@ -8,20 +8,22 @@
 
 <%= render 'filters' %>
 
-<%= @num_per_column %>
-
 <div class="row">
-  <% @photos.each_slice(@num_per_column) do |subarray| %>
-    <div class="column">
-      <% subarray.each do |photo| %>
-        <% if photo.present? %>
-          <%= render 'display', :locals => {:name => photo.name, 
-                                            :scientific => photo.scientific, 
-                                            :desc => photo.desc,
-                                            :location => photo.location,
-                                            :filename => photo.filename} %>
+  <% if @num_per_column != 0 %>
+    <% @photos.each_slice(@num_per_column) do |subarray| %>
+      <div class="column">
+        <% subarray.each do |photo| %>
+          <% if photo.present? %>
+            <%= render 'display', :locals => {:name => photo.name, 
+                                              :scientific => photo.scientific, 
+                                              :desc => photo.desc,
+                                              :location => photo.location,
+                                              :filename => photo.filename} %>
+          <% end %>
         <% end %>
-      <% end %>
-    </div>
+      </div>
+    <% end %>
   <% end %>
 </div>
+
+<%= render 'sidebar' %>

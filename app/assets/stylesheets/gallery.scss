@@ -9,7 +9,7 @@
 }
 
 #filter-box {
-  width: 30vw;
+  width: 25vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -35,16 +35,34 @@
 .row {
   display: flex;
   flex-direction: row;
-  padding: 0 1vh;
-  width: 75vw;
+  padding: 0 1vw;
+  width: 65vw;
 }
 
 .column {
   flex: 50%;
-  padding: 0 1vh;
+  padding: 0 0.5vw;
 }
 
 .display_image {
   vertical-align: middle;
   width: 100%;
+  padding: 0.5vh 0.5vh;
+}
+
+#sidebar {
+  -webkit-box-shadow: -4px 0px 5px -1px rgba(0,0,0,0.31);
+  -moz-box-shadow: -4px 0px 5px -1px rgba(0,0,0,0.31);
+  box-shadow: -4px 0px 5px -1px rgba(0,0,0,0.31);
+  position: fixed;
+  width: 30vw;
+  height: 100vh;
+  right: 0%;
+  top: 0%;
+}
+
+#sidebar-header {
+  padding: 1vh 2vw;
+  font-weight: bold;
+  font-size: 20px;
 }
