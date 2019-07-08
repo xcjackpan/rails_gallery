@@ -29,7 +29,7 @@ bugs.photos.create({
   scientific: 'Cheircanthium',
   desc: '',
   location: 'Richmond Hill',
-  filename: 'yss.jpg',
+  key: 'yss',
 })
 
 birds.photos.create({
@@ -37,7 +37,7 @@ birds.photos.create({
   scientific: 'Cardinalis cardinalis',
   desc: '',
   location: 'Richmond Hill',
-  filename: 'mnc.jpg',
+  key: 'mnc',
 })
 
 birds.photos.create({
@@ -45,7 +45,7 @@ birds.photos.create({
   scientific: 'Family Columbidae',
   desc: '',
   location: 'London, UK',
-  filename: 'rd.jpg',
+  key: 'rd',
 })
 
 bugs.photos.create({
@@ -53,7 +53,7 @@ bugs.photos.create({
   scientific: 'Tetraopes tetrophthalmus',
   desc: '',
   location: 'Toronto',
-  filename: 'mwb.jpg',
+  key: 'mwb',
 })
 
 bugs.photos.create({
@@ -61,7 +61,7 @@ bugs.photos.create({
   scientific: 'Family pallopteridae',
   desc: '',
   location: 'Richmond Hill',
-  filename: 'ff.jpg',
+  key: 'ff',
 })
 
 mammals.photos.create({
@@ -69,7 +69,7 @@ mammals.photos.create({
   scientific: 'Sylvilagus floridanus',
   desc: '',
   location: 'CLV',
-  filename: 'ec.jpg',
+  key: 'ec',
 })
 
 mammals.photos.create({
@@ -77,7 +77,7 @@ mammals.photos.create({
   scientific: 'Marmota monax',
   desc: '',
   location: 'V1',
-  filename: 'gh.jpg',
+  key: 'gh',
 })
 
 birds.photos.create({
@@ -85,7 +85,7 @@ birds.photos.create({
   scientific: 'Buteo jamaicensis',
   desc: '',
   location: 'V1',
-  filename: 'rth.jpg',
+  key: 'rth',
 })
 
 birds.photos.create({
@@ -93,7 +93,7 @@ birds.photos.create({
   scientific: 'Buteo jamaicensis',
   desc: '',
   location: 'V1',
-  filename: 'rth2.jpg',
+  key: 'rth2',
 })
 
 bugs.photos.create({
@@ -101,7 +101,23 @@ bugs.photos.create({
   scientific: 'family Tetragnathidae',
   desc: '',
   location: 'Pole near CLV',
-  filename: 'ljow.jpg',
+  key: 'ljow',
+})
+
+bugs.photos.create({
+  name: 'Milbert\'s tortoiseshell',
+  scientific: 'Aglais milberti',
+  desc: '',
+  location: 'Parking lot outside Hagey Hall',
+  key: 'mts',
+})
+
+bugs.photos.create({
+  name: 'Western conifer seed bug',
+  scientific: 'Leptoglossus occidentalis',
+  desc: '',
+  location: 'Grand Commons at UWP',
+  key: 'wcsb',
 })
 
 birds.photos.create({
@@ -109,7 +125,7 @@ birds.photos.create({
   scientific: 'Cathartes aura',
   desc: '',
   location: 'Somewhere north of UW',
-  filename: 'tv.jpg',
+  key: 'tv',
 })
 
 bugs.photos.create({
@@ -117,7 +133,15 @@ bugs.photos.create({
   scientific: 'Colias philodice',
   desc: '',
   location: 'Somewhere north of UW',
-  filename: 'cs.jpg',
+  key: 'cs',
+})
+
+bugs.photos.create({
+  name: 'Male drumming katydid',
+  scientific: 'Meconema thalassinum',
+  desc: '',
+  location: 'Outside the HUB',
+  key: 'kd',
 })
 
 mammals.photos.create({
@@ -125,7 +149,7 @@ mammals.photos.create({
   scientific: 'Eptesicus fuscus',
   desc: '',
   location: 'The HUB',
-  filename: 'bbb.jpg',
+  key: 'bbb',
 })
 
 mammals.photos.create({
@@ -133,7 +157,7 @@ mammals.photos.create({
   scientific: 'Eptesicus fuscus',
   desc: '',
   location: 'Outside the HUB',
-  filename: 'bbb2.jpg',
+  key: 'bbb2',
 })
 
 bugs.photos.create({
@@ -141,7 +165,7 @@ bugs.photos.create({
   scientific: 'Danaus plexippus',
   desc: '',
   location: 'UW campus',
-  filename: 'fmb.jpg',
+  key: 'fmb',
 })
 
 birds.photos.create({
@@ -149,7 +173,7 @@ birds.photos.create({
   scientific: 'Cairina moschata',
   desc: '',
   location: 'Somewhere in California',
-  filename: 'md.jpg',
+  key: 'md',
 })
 
 birds.photos.create({
@@ -157,5 +181,37 @@ birds.photos.create({
   scientific: 'Euphagus cyanocephalus',
   desc: '',
   location: 'Somewhere in California',
-  filename: 'bb.jpg',
+  key: 'bb',
+})
+
+birds.photos.create({
+  name: 'Hairy woodpecker',
+  scientific: 'Leuconotopicus villosus',
+  desc: '',
+  location: 'UW campus',
+  key: 'hw',
+})
+
+bugs.photos.create({
+  name: 'Linnaeus\' spangle-wing',
+  scientific: 'Chrysoclista linneela',
+  desc: '',
+  location: 'Richmond Hill',
+  key: 'lsw',
+})
+
+birds.photos.create({
+  name: 'Male house sparrow',
+  scientific: 'Passer domesticus',
+  desc: '',
+  location: 'Harborfront at Toronto',
+  key: 'mhs',
+})
+
+bugs.photos.create({
+  name: 'Cross orb-weaver',
+  scientific: 'Araneus diadematus',
+  desc: '',
+  location: 'UW campus',
+  key: 'co',
 })

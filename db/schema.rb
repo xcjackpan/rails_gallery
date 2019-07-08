@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2019_06_25_064945) do
     t.string "scientific"
     t.string "desc"
     t.string "location"
-    t.string "filename"
+    t.string "key"
     t.string "animal_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

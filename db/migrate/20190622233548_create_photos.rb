@@ -6,7 +6,7 @@ class CreatePhotos < ActiveRecord::Migration[5.2]
       t.string :scientific
       t.string :desc
       t.string :location
-      t.string :filename
+      t.string :key
       t.string :animal_id
 
       t.timestamps
