@@ -14,7 +14,7 @@
       <div class="column">
         <% subarray.each do |photo| %>
           <% if photo.present? %>
-            <%= render 'display', :locals => {:photo => photo, 
+            <%= render 'display', :locals => {:name => photo.name, 
                                               :scientific => photo.scientific, 
                                               :desc => photo.desc,
                                               :location => photo.location,

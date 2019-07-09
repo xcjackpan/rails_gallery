@@ -1,5 +1,5 @@
 class PhotosController < ApplicationController
   def show
-    @photo = Photo.find_by(filename: "#{params[:id]}.jpg")
+    @photo = Photo.find_by(key: "#{params[:id]}")
   end
 end

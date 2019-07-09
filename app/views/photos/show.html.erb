@@ -1,0 +1,9 @@
+<div id="container">
+  <%= image_tag("/images/#{@photo.key}.jpg", id: "photo") %>
+  <div class="info">
+    <%= content_tag(:p, "#{@photo.name}", class:"name") %>
+    <%= content_tag(:p, "#{@photo.scientific}", class:"scientific") %>
+    <%= content_tag(:p, "#{@photo.desc}", class:"desc") %>
+    <%= content_tag(:p, "#{@photo.location}", class:"location") %>
+  </div>
+</div>
