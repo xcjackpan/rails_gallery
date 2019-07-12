@@ -18,5 +18,34 @@
 #photo {
   max-width: 60vw;
   max-height: 90vh;
-  padding: 10%;
+  margin: 10% 5%;
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.31);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.31);
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.31);
+}
+
+.tag {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.info {
+  font-size: 24px;
+}
+
+.info a {
+  color: black;
+}
+
+.back {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 40px !important;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.31);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.31);
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.31);
 }

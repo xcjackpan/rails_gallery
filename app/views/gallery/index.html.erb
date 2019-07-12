@@ -2,7 +2,7 @@
   <% if @filter.present? %>
     <%= @filter.downcase %>
   <% else %>
-    Gallery.
+    All the critters.
   <% end %>
 </p>
 
@@ -16,7 +16,7 @@
           <% if photo.present? %>
             <%= render 'display', :locals => {:name => photo.name, 
                                               :scientific => photo.scientific, 
-                                              :desc => photo.desc,
+                                              :reference => photo.reference,
                                               :location => photo.location,
                                               :key => photo.key} %>
           <% end %>

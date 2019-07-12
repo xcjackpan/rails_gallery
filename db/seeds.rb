@@ -26,8 +26,8 @@ mammals = Animal.find_by_name('mammals')
 
 bugs.photos.create({
   name: 'Yellow sac spider',
-  scientific: 'Cheircanthium',
-  desc: '',
+  scientific: 'genus Cheircanthium',
+  reference: 'https://bugguide.net/node/view/3383/bgpage',
   location: 'Richmond Hill',
   key: 'yss',
 })
@@ -35,31 +35,23 @@ bugs.photos.create({
 birds.photos.create({
   name: 'Male northern cardinal',
   scientific: 'Cardinalis cardinalis',
-  desc: '',
+  reference: 'https://www.allaboutbirds.org/guide/Northern_Cardinal/id',
   location: 'Richmond Hill',
   key: 'mnc',
 })
 
-birds.photos.create({
-  name: 'Rock dove',
-  scientific: 'Family Columbidae',
-  desc: '',
-  location: 'London, UK',
-  key: 'rd',
-})
-
 bugs.photos.create({
-  name: 'Milkweed beetle',
+  name: 'Red milkweed beetle',
   scientific: 'Tetraopes tetrophthalmus',
-  desc: '',
+  reference: 'https://bugguide.net/node/view/2966',
   location: 'Toronto',
   key: 'mwb',
 })
 
 bugs.photos.create({
   name: 'Flutter fly',
-  scientific: 'Family pallopteridae',
-  desc: '',
+  scientific: 'family Pallopteridae',
+  reference: 'https://bugguide.net/node/view/12755',
   location: 'Richmond Hill',
   key: 'ff',
 })
@@ -67,7 +59,7 @@ bugs.photos.create({
 mammals.photos.create({
   name: 'Eastern cottontail',
   scientific: 'Sylvilagus floridanus',
-  desc: '',
+  reference: 'https://www.nationalgeographic.com/animals/mammals/e/eastern-cottontail-rabbit/',
   location: 'CLV',
   key: 'ec',
 })
@@ -75,7 +67,7 @@ mammals.photos.create({
 mammals.photos.create({
   name: 'Groundhog',
   scientific: 'Marmota monax',
-  desc: '',
+  reference: 'https://en.wikipedia.org/wiki/Groundhog',
   location: 'V1',
   key: 'gh',
 })
@@ -83,7 +75,7 @@ mammals.photos.create({
 birds.photos.create({
   name: 'Red-tailed hawk',
   scientific: 'Buteo jamaicensis',
-  desc: '',
+  reference: 'https://www.allaboutbirds.org/guide/Red-tailed_Hawk/id',
   location: 'V1',
   key: 'rth',
 })
@@ -91,15 +83,15 @@ birds.photos.create({
 birds.photos.create({
   name: 'Red-tailed hawk',
   scientific: 'Buteo jamaicensis',
-  desc: '',
+  reference: 'https://www.allaboutbirds.org/guide/Red-tailed_Hawk/id',
   location: 'V1',
   key: 'rth2',
 })
 
 bugs.photos.create({
-  name: 'Silver long-jawed orbweaver',
-  scientific: 'family Tetragnathidae',
-  desc: '',
+  name: 'Long-jawed orbweaver',
+  scientific: 'family Tetragnatha',
+  reference: 'https://bugguide.net/node/view/1997',
   location: 'Pole near CLV',
   key: 'ljow',
 })
@@ -107,7 +99,7 @@ bugs.photos.create({
 bugs.photos.create({
   name: 'Milbert\'s tortoiseshell',
   scientific: 'Aglais milberti',
-  desc: '',
+  reference: 'https://bugguide.net/node/view/30387',
   location: 'Parking lot outside Hagey Hall',
   key: 'mts',
 })
@@ -115,7 +107,7 @@ bugs.photos.create({
 bugs.photos.create({
   name: 'Western conifer seed bug',
   scientific: 'Leptoglossus occidentalis',
-  desc: '',
+  reference: 'https://bugguide.net/node/view/3393',
   location: 'Grand Commons at UWP',
   key: 'wcsb',
 })
@@ -123,7 +115,7 @@ bugs.photos.create({
 birds.photos.create({
   name: 'Turkey vulture',
   scientific: 'Cathartes aura',
-  desc: '',
+  reference: 'https://www.allaboutbirds.org/guide/Turkey_Vulture/id',
   location: 'Somewhere north of UW',
   key: 'tv',
 })
@@ -131,7 +123,7 @@ birds.photos.create({
 bugs.photos.create({
   name: 'Clouded sulphur',
   scientific: 'Colias philodice',
-  desc: '',
+  reference: 'https://bugguide.net/node/view/12864/bgimage',
   location: 'Somewhere north of UW',
   key: 'cs',
 })
@@ -139,15 +131,15 @@ bugs.photos.create({
 bugs.photos.create({
   name: 'Male drumming katydid',
   scientific: 'Meconema thalassinum',
-  desc: '',
+  reference: 'https://bugguide.net/node/view/8022',
   location: 'Outside the HUB',
-  key: 'kd',
+  key: 'dk',
 })
 
 mammals.photos.create({
   name: 'Big brown bat',
   scientific: 'Eptesicus fuscus',
-  desc: '',
+  reference: 'https://en.wikipedia.org/wiki/Big_brown_bat',
   location: 'The HUB',
   key: 'bbb',
 })
@@ -155,7 +147,7 @@ mammals.photos.create({
 mammals.photos.create({
   name: 'Big brown bat',
   scientific: 'Eptesicus fuscus',
-  desc: '',
+  reference: 'https://en.wikipedia.org/wiki/Big_brown_bat',
   location: 'Outside the HUB',
   key: 'bbb2',
 })
@@ -163,7 +155,7 @@ mammals.photos.create({
 bugs.photos.create({
   name: 'Female monarch butterfly',
   scientific: 'Danaus plexippus',
-  desc: '',
+  reference: 'https://bugguide.net/node/view/540',
   location: 'UW campus',
   key: 'fmb',
 })
@@ -171,7 +163,7 @@ bugs.photos.create({
 birds.photos.create({
   name: 'Muscovy duck',
   scientific: 'Cairina moschata',
-  desc: '',
+  reference: 'https://en.wikipedia.org/wiki/Muscovy_duck',
   location: 'Somewhere in California',
   key: 'md',
 })
@@ -179,7 +171,7 @@ birds.photos.create({
 birds.photos.create({
   name: 'Female Brewer\'s blackbird',
   scientific: 'Euphagus cyanocephalus',
-  desc: '',
+  reference: 'https://www.allaboutbirds.org/guide/Brewers_Blackbird/media-browser-overview/67373981',
   location: 'Somewhere in California',
   key: 'bb',
 })
@@ -187,7 +179,7 @@ birds.photos.create({
 birds.photos.create({
   name: 'Hairy woodpecker',
   scientific: 'Leuconotopicus villosus',
-  desc: '',
+  reference: 'https://www.allaboutbirds.org/guide/Hairy_Woodpecker/id',
   location: 'UW campus',
   key: 'hw',
 })
@@ -195,7 +187,7 @@ birds.photos.create({
 bugs.photos.create({
   name: 'Linnaeus\' spangle-wing',
   scientific: 'Chrysoclista linneela',
-  desc: '',
+  reference: 'https://bugguide.net/node/view/26402',
   location: 'Richmond Hill',
   key: 'lsw',
 })
@@ -203,7 +195,7 @@ bugs.photos.create({
 birds.photos.create({
   name: 'Male house sparrow',
   scientific: 'Passer domesticus',
-  desc: '',
+  reference: 'https://www.allaboutbirds.org/guide/House_Sparrow/id',
   location: 'Harborfront at Toronto',
   key: 'mhs',
 })
@@ -211,7 +203,31 @@ birds.photos.create({
 bugs.photos.create({
   name: 'Cross orb-weaver',
   scientific: 'Araneus diadematus',
-  desc: '',
+  reference: 'https://bugguide.net/node/view/3376',
   location: 'UW campus',
   key: 'co',
+})
+
+bugs.photos.create({
+  name: 'Carrot seed moth',
+  scientific: 'Sitochroa palealis',
+  reference: 'https://bugguide.net/node/view/133216',
+  location: 'On my lawn in Richmond Hill',
+  key: 'csm',
+})
+
+bugs.photos.create({
+  name: 'Ladybug larva',
+  scientific: 'Family Coccinellidae',
+  reference: 'https://bugguide.net/node/view/179',
+  location: 'Richmond Hill',
+  key: 'll',
+})
+
+bugs.photos.create({
+  name: 'Ladybug pupa',
+  scientific: 'Family Coccinellidae',
+  reference: 'https://bugguide.net/node/view/179',
+  location: 'Richmond Hill',
+  key: 'lp',
 })

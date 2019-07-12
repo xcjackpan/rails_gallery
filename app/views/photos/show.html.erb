@@ -1,9 +1,14 @@
 <div id="container">
+  <%= link_to content_tag(:i, "", class:"fe fe-close back"), :controller => :gallery, :action => :index %>
   <%= image_tag("/images/#{@photo.key}.jpg", id: "photo") %>
   <div class="info">
-    <%= content_tag(:p, "#{@photo.name}", class:"name") %>
-    <%= content_tag(:p, "#{@photo.scientific}", class:"scientific") %>
-    <%= content_tag(:p, "#{@photo.desc}", class:"desc") %>
-    <%= content_tag(:p, "#{@photo.location}", class:"location") %>
+    <p><span class="tag">name:</span> 
+       <%= content_tag(:span, "#{@photo.name}", class:"info") %></p>
+    <p><span class="tag">taxonomy (if you care):</span> 
+       <i><%= content_tag(:span, "#{@photo.scientific}", class:"info") %></i></p>
+    <p><span class="tag">location:</span>
+       <%= content_tag(:span, "#{@photo.location}", class:"info") %></p>
+    <p><span class="tag">reference:</span>
+       <span class="info"><%= link_to nil, "#{@photo.reference}"%></span></p>
   </div>
 </div>

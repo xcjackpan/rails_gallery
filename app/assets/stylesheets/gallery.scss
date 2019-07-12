@@ -62,7 +62,18 @@
 }
 
 #sidebar-header {
-  padding: 1vh 2vw;
+  padding: 1vh 3vw;
+  line-height: 1.5;
   font-weight: bold;
+  font-size: 30px;
+}
+
+#sidebar-text {
+  padding: 1vh 3vw;
   font-size: 20px;
+}
+
+#sidebar-text a {
+  color: black;
+  text-decoration: underline;
 }

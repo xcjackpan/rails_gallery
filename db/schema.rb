@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2019_06_25_064945) do
   create_table "photos", force: :cascade do |t|
     t.string "name"
     t.string "scientific"
-    t.string "desc"
+    t.string "reference"
     t.string "location"
     t.string "key"
     t.string "animal_id"
